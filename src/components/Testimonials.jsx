@@ -1,5 +1,5 @@
-import React from 'react'
-import { assets, testimonialsData } from './assets'
+import React from "react";
+import { assets, testimonialsData } from "./x";
 
 const Testimonials = () => {
   return (
@@ -46,6 +46,6 @@ const Testimonials = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Testimonials
+export default Testimonials;

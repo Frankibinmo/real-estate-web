@@ -1,5 +1,5 @@
-import React from 'react'
-import { assets } from "./assets";
+import React from "react";
+import { assets } from "./x";
 
 const Footer = () => {
   return (
@@ -34,21 +34,31 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-full md:w-1/3">
-          <h3 className="text-white text-lg font-bold mb-4">Subscribe to our news letter</h3>
-           <p className='text-gray-400 mb-4 max-w-80'>The latest information about land will be
-             sent on a regular in your inbox</p>
-             <div className='flex gap-2'>
-                <input type="Email" placeholder='Enter Your Email' className='p-2 rounded bg-gray-800
-                 text-gray-400 border border-gray-200 focus:outline-none w-full md:w-auto' />
-                 <button className='py-2 px-4 rounded bg-green-500 text-white'>Subscribe</button>
-             </div>
+          <h3 className="text-white text-lg font-bold mb-4">
+            Subscribe to our news letter
+          </h3>
+          <p className="text-gray-400 mb-4 max-w-80">
+            The latest information about land will be sent on a regular in your
+            inbox
+          </p>
+          <div className="flex gap-2">
+            <input
+              type="Email"
+              placeholder="Enter Your Email"
+              className="p-2 rounded bg-gray-800
+                 text-gray-400 border border-gray-200 focus:outline-none w-full md:w-auto"
+            />
+            <button className="py-2 px-4 rounded bg-green-500 text-white">
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
-      <div className='border-t border-gray-600 py-4 mt-10 text-center text-gray-500'>
+      <div className="border-t border-gray-600 py-4 mt-10 text-center text-gray-500">
         Copright 2025 @ Frank-Captain Coding Academy. ALL RIGHT RESERVED
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

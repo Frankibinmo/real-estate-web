@@ -1,5 +1,5 @@
-import React from 'react'
-import { assets } from "./assets";
+import React from "react";
+import { assets } from "./x";
 
 const About = () => {
   return (
@@ -45,15 +45,17 @@ const About = () => {
               <p>Ongoing projects</p>
             </div>
           </div>
-          <p className='my-10 max-w-lg'>
+          <p className="my-10 max-w-lg">
             from the very first day of working with Bright, he understood my
             vision and provided me with a befiting house of my choice
-            <button className='bg-green-600 text-white px-8 py-2 rounded'>Learn More</button>
+            <button className="bg-green-600 text-white px-8 py-2 rounded">
+              Learn More
+            </button>
           </p>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

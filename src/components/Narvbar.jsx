@@ -1,22 +1,19 @@
-import React, { useEffect, useState } from 'react'
-import { assets } from "./assets";
+import React, { useEffect, useState } from "react";
+import { assets } from "./x";
 
 const Narvbar = () => {
-     
-    const [showMobileMenu, setShowMobileMenu] = useState(false)
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
-    useEffect(() => {
-      if(showMobileMenu){
-        document.body.style.overflow = 'hidden'
-        
-      }else{
-        document.body.style.overflow = "auto";
-
-      } return () =>{
-        document.body.style.overflow = "auto";
-         
-      }
-    },[showMobileMenu])
+  useEffect(() => {
+    if (showMobileMenu) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [showMobileMenu]);
 
   return (
     <div className="absolute top-0 left-0 w-full z-10">
@@ -92,6 +89,6 @@ const Narvbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Narvbar
+export default Narvbar;
