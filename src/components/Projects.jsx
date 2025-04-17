@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { assets, projectsData } from '../assets';
+import { assets, projectsData } from './assets';
 
 const Projects = () => {
             //    these function are for the next button and previous button

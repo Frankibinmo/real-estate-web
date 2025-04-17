@@ -1,20 +1,20 @@
-import menu_icon from './assets/menu_icon.svg'
-import logo_dark from './assets/logo_dark.svg'
-import logo from './assets/logo.svg'
-import profileImg1 from './assets/profileImg1.png'
-import profile_img_2 from "./assets/profileImg2.png";
-import profile_img_3 from "./assets/profileImg3.png";
-import project_img_1 from "./assets/projectImg1.jpg";
-import project_img_2 from "./assets/projectImg2.jpg";
-import project_img_3 from "./assets/projectImg3.jpg";
-import project_img_4 from "./assets/projectImg4.jpg";
-import project_img_5 from "./assets/projectImg5.jpg";
-import project_img_6 from "./assets/projectImg6.jpg";
-import right_arrow from "./assets/right_arrow.svg";
-import star_icon from "./assets/star_icon.svg";
-import brandImg from "./assets/brandImg.png";
-import cross_icon from "./assets/cross_icon.svg";
-import left_arrow from "./assets/left_arrow.svg";
+import menu_icon from '../assets/menu_icon.svg'
+import logo_dark from '../assets/logo_dark.svg'
+import logo from '../assets/logo.svg'
+import profileImg1 from '../assets/profileImg1.png'
+import profile_img_2 from "../assets/profileImg2.png";
+import profile_img_3 from "../assets/profileImg3.png";
+import project_img_1 from "../assets/projectImg1.jpg";
+import project_img_2 from "../assets/projectImg2.jpg";
+import project_img_3 from "../assets/projectImg3.jpg";
+import project_img_4 from "../assets/projectImg4.jpg";
+import project_img_5 from "../assets/projectImg5.jpg";
+import project_img_6 from "../assets/projectImg6.jpg";
+import right_arrow from "../assets/right_arrow.svg";
+import star_icon from "../assets/star_icon.svg";
+import brandImg from "../assets/brandImg.png";
+import cross_icon from "../assets/cross_icon.svg";
+import left_arrow from "../assets/left_arrow.svg";
 
 
 
